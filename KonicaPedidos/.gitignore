@@ -1,0 +1,34 @@
+# Binarios y dependencias
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.log
+*.cache
+
+# Configuración del entorno
+.env
+secrets.json
+appsettings.Development.json
+
+# Configuración de Visual Studio
+.vscode/
+*.suo
+*.user
+*.vs
+*.vscode
+*.csproj.user
+
+# Migraciones de Entity Framework (si se regeneran dinámicamente)
+Migrations/
+
+# Carpetas de compilación de NuGet
+packages/
+*.nupkg
+project.lock.json
+.nuget/
+
+# Archivos generados por Rider o Resharper
+.idea/
+*.sln.iml
