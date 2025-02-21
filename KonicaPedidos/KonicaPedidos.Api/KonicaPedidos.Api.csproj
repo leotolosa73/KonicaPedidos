@@ -12,10 +12,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\Application\KonicaPedidos.Application.csproj" />
     <ProjectReference Include="..\KonicaPedidos.Infrastructure\KonicaPedidos.Infrastructure.csproj" />
   </ItemGroup>
